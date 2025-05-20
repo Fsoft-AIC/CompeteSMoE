@@ -10,7 +10,8 @@
     <img src="https://img.shields.io/badge/HuggingFace-CompeteSMoE-blue?style=flat&logo=huggingface">
   </a>
 </p>
-![image](https://github.com/user-attachments/assets/55b26ac0-b845-4857-a252-67bd208514d6)
+
+![image](https://github.com/user-attachments/assets/08bbe7f6-1056-44b1-b6e9-c2e87e965d51)
 
 ## 📌 About
 
