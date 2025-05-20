@@ -1,7 +1,6 @@
 # CompeteSMoE - Statistically Guaranteed Mixture of Experts Training via Competition
 
 **Authors:** Nam V. Nguyen, Huy Nguyen, Quang Pham, Van Nguyen, Savitha Ramasamy, Nhat Ho
-![image](https://github.com/user-attachments/assets/55b26ac0-b845-4857-a252-67bd208514d6)
 
 <p align="center">
   <a href="https://arxiv.org/abs/2505.13380">
@@ -11,6 +10,7 @@
     <img src="https://img.shields.io/badge/HuggingFace-CompeteSMoE-blue?style=flat&logo=huggingface">
   </a>
 </p>
+![image](https://github.com/user-attachments/assets/55b26ac0-b845-4857-a252-67bd208514d6)
 
 ## 📌 About
 
