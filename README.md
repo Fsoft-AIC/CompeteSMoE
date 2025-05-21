@@ -21,8 +21,6 @@ However, we argue that effective SMoE training remains challenging because of th
 
 | Date       | Release Notes                                                                 |
 |------------|--------------------------------------------------------------------------------|
-| 2025-05-23 | - CompeteSMoE 5.1B, trained on 2M samples, scheduled for release.              |
-| 2025-05-21 | - Python inference library release planned.                                    |
 | 2025-05-20 | - Released CompeteSMoE 5.1B, trained on the LLAVA665K dataset. ✅              |
 | 2025-05-20 | - Published CompeteSMoE paper and open-source code. ✅                         |
 
