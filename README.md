@@ -21,8 +21,8 @@ However, we argue that effective SMoE training remains challenging because of th
 
 | Date       | Release Notes                                                                 |
 |------------|--------------------------------------------------------------------------------|
-| 2025-05-20 | - Released CompeteSMoE 5.1B, trained on the LLAVA665K dataset. ✅              |
-| 2025-05-20 | - Published CompeteSMoE paper and open-source code. ✅                         |
+|  | - Released CompeteSMoE 5.1B, trained on the LLAVA665K dataset.            |
+|  | - Published CompeteSMoE paper and open-source code.                       |
 
 ## 📌 Citation
 If you find this repository useful, please consider citing our paper:
