@@ -11,7 +11,7 @@
   </a>
 </p>
 
-![image](https://github.com/user-attachments/assets/08bbe7f6-1056-44b1-b6e9-c2e87e965d51)
+
 
 ## 📌 About
 
