@@ -11,13 +11,23 @@
   </a>
 </p>
 
-![image](https://github.com/user-attachments/assets/08bbe7f6-1056-44b1-b6e9-c2e87e965d51)
+![image](https://github.com/user-attachments/assets/4a7ac43e-0c8c-4720-8dec-5554196f5e86)
+
 
 ## 📌 About
 
 Sparse mixture of experts (SMoE) offers an appealing solution to scale up the model complexity beyond the mean of increasing the network's depth or width. 
 However, we argue that effective SMoE training remains challenging because of the suboptimal routing process where experts that perform computation do not directly contribute to the routing process. In this work, we propose  competition, a novel mechanism to route tokens to experts with the highest neural response. Theoretically, we show that the competition mechanism enjoys a better sample efficiency than the traditional softmax routing. Furthermore, we develop CompeteSMoE, a simple yet effective algorithm to train large language models by deploying a router to learn the competition policy, thus enjoying strong performances at a low training overhead. Our extensive empirical evaluations on both the visual instruction tuning and language pre-training tasks demonstrate the efficacy, robustness, and scalability of CompeteSMoE compared to state-of-the-art SMoE strategies.
-## 📢 Release Notes
+## 🏆 Performance & Comparisons
+![CompeteSMoE Performance](https://github.com/user-attachments/assets/67b54a45-9835-4fc7-8a49-cee70c25153d)
+
+**Highlights:**  
+- **CompeteSMoE-5.1B** demonstrates strong performance across a range of MoE routing strategies, including both standard and state-of-the-art routing methods.
+- Achieves competitive results compared to recent MoE architectures such as **SharedE-V2** and **SharedE-V3** (inspired by DeepSeek).
+- Despite architectural innovations of these models (e.g. shared experts), **CompeteSMoE-5.1B** consistently delivers superior or comparable results.
+
+
+## 🗓️ Release Notes
 
 | Date       | Release Notes                                                                 |
 |------------|--------------------------------------------------------------------------------|
