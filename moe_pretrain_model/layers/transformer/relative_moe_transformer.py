@@ -82,7 +82,9 @@ class RelativeMoeTransformerEncoderLayer(LoggingLayer, torch.nn.Module):
         self.pkm = get_moe(args.moe_name)(
                 d_model, n_experts, expert_size, dropout=dropout * moe_dropout_factor,
                 weight_scale=std_scale, selection_mode=selection_mode,
-                perplexity_reg=perplexity_reg,  n_heads=n_heads,
+                topk=n_heads, 
+                perplexity_reg=perplexity_reg,  
+                n_heads=n_heads,
                 perplexity_reg_mode=perplexity_reg_mode,
                 activation_after_topk=activation_after_topk,
                 activation=activation,
